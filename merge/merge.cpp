@@ -61,5 +61,6 @@ int main(void)
 	Mergesort(m1, 0, length - 1, length);
 	for (int i = 0; i < length; i++)
 		printf("%i\n", m1[i]);
+	free(m1);
 	return 0;
 }
